@@ -9,7 +9,7 @@ body {font-family:arial;}
 #xfashion h3 {color:green;}
 #tmotion h3 {color:green;}
 
-/* CSS usando clases en el código HTML con herencias*/
+/* Importante: CSS usando clases en el código HTML con herencias*/
 .destacado {font-family:arial, sans-serif;}
 p.destacado { background-color: orange; font-weight:bold; font-size:100%; }
 div.destacado {background-color: blue; font-weight:bold; font-size:100%; }
