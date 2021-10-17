@@ -1,0 +1,29 @@
+/* Comentario en CSS estilos aprenderaprogramar.com*/
+
+/* todo el html con la misma fuente */
+body {font-family:arial;}
+
+/* CSS usando IDs en el código HTML */
+#novedades {background-color:yellow;}
+#novedades h1 {color:red;}
+#xfashion h3 {color:green;}
+#tmotion h3 {color:green;}
+
+/* CSS usando clases en el código HTML con herencias*/
+.destacado {font-family:arial, sans-serif;}
+p.destacado { background-color: orange; font-weight:bold; font-size:100%; }
+div.destacado {background-color: blue; font-weight:bold; font-size:100%; }
+
+/* Ahora solo se aplica a las referencias y tiene herencia de la linea de arriba*/
+p.destacado a, div.destacado a { background-color: orange; font-weight:bold; font-size:100%; } 
+
+
+input[name]{background-color:red;}
+
+/* Selecciona todos los elementos cuyo nombreAtributo comienza por valor. En el ejemplo, se pone fondo amarillo y tamaño de letra 75 % a todos los links cuyo atributo href comienza por http://www.aprender */
+a[href^="http://www.aprender"] {background-color: yellow; font-size:75%;}
+
+img[title]{}
+
+	
+	
